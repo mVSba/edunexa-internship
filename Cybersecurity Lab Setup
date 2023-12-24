@@ -1,0 +1,33 @@
+Step 1: Download and Install VirtualBox
+Visit the VirtualBox website and download the latest version of VirtualBox for your operating system.
+Follow the installation instructions provided for your specific operating system.
+
+
+Step 2: Download Kali Linux ISO
+Visit the Kali Linux download page and download the Kali Linux ISO image.
+Choose the appropriate version for your system (e.g., 64-bit or 32-bit).
+
+
+Step 3: Create a New Virtual Machine
+Open VirtualBox and click on "New" to create a new virtual machine.
+Enter a name for your virtual machine (e.g., "Kali Linux").
+Choose "Linux" as the type and "Debian" as the version.
+Allocate at least 2 GB of RAM (2048 MB).
+Create a new virtual hard disk, and choose the size (20 GB or more is recommended).
+
+
+Step 4: Configure Virtual Machine Settings
+Select the newly created virtual machine and click on "Settings."
+Under "System," uncheck "Floppy" in the Boot Order tab.
+Under "Processor," allocate multiple CPU cores if available.
+Under "Display," increase the video memory to at least 128 MB.
+Under "Storage," select the empty disk, click on the disk icon next to "Controller: IDE," and choose the Kali Linux ISO you downloaded earlier.
+
+
+Step 5: Install Kali Linux
+Start the virtual machine.
+Kali Linux will boot from the ISO. Follow the on-screen instructions to install the operating system.
+During the installation process, you will be prompted to set up a root password and create a user account.
+When the installation completes, eject the ISO from the virtual CD/DVD drive and press Enter to reboot.
+
+
